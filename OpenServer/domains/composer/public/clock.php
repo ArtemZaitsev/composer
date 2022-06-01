@@ -6,11 +6,11 @@ include '../vendor/autoload.php';
 //
 
 function yourCode(Clock $clock) {
-    $time = $clock->now(); // Returns DateTimeImmutable. No global access and easily testable
+    $clock->now(); // Returns DateTimeImmutable. No global access and easily testable
 }
-//interface Clock {
-//    public function now(): \DateTimeImmutable;
-//}
+interface SystemClock {
+    public function now(): \DateTimeImmutable;
+}
 
 
 

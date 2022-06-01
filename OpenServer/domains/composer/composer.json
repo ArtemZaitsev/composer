@@ -2,7 +2,8 @@
   "require": {
     "phpoffice/phpproject": "dev-master",
     "lcobucci/clock": "^2.2",
-    "wmde/clock": "~1.0"
+    "wmde/clock": "~1.0",
+    "phpunit/php-timer": "^5.0"
   },
 
   "autoload": {

@@ -1,6 +1,6 @@
 <?php
 include_once 'Sample_Header.php';
-\Models\Dog::class->echoDog();
+//\Models\Dog::class->echoDog();
 $requirements = array(
     'php'   => array('PHP 5.3.0', version_compare(phpversion(), '5.3.0', '>=')),
     'xml'   => array('PHP extension XML', extension_loaded('xml')),
